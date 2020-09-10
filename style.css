@@ -121,3 +121,7 @@ nav {
   .form-subject {
     width: 100%;
   }
+
+.under-development {
+    font-weight: bold;
+}
