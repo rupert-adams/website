@@ -82,11 +82,11 @@ nav {
   }
 
 
-  button {
+  /* .button {
     background-color: #a1d9cd;
     color: #273331;
     border: 2px solid #273331;
-  }
+  } */
 
   .form-button {
     margin-top: 2rem;
