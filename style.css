@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #273331;
+    color: #a1d9cd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.navbar li:first-child{
+    margin-right: auto;
+    margin-left: 3em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 3em;
+    position: relative;
+}
+
+
+.section {
+    height: 100vh;
+}
+
+.home {
+    background-color: #a1d9cd;
+    color: #273331;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.home .text-box {
+   width: 50%;
+   padding: 5%;
+}
+
+.home .image {
+    width: 50%;
+    padding: 5%;
+ }
+
+ .image img {
+     max-width: 110%;
+ }
+
+.contact {
+    background-color: #273331;
+    color: #a1d9cd;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.contact .contact-form {
+    width: 50vw;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+ }
+ 
+ .contact .contact-text {
+     width: 50vw;
+     padding: 2em;
+  }
+
+
+  button {
+    background-color: #a1d9cd;
+    color: #273331;
+    border: 2px solid #273331;
+  }
+
+  .form-button {
+    margin-top: 2rem;
+    background-color: #273331;
+    color: #d76345;
+    border: 2px solid #d76345;
+  }
+
+  .message-input {
+    height: 6rem;
+    width: 100%;
+  }
+
+  .form-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .top-content {
+      width: 45%;
+  }
+
+  .form-name {
+      width: 100%;
+  }
+
+  .form-email {
+    width: 100%;
+}
+
+  .form-subject {
+    width: 100%;
+  }

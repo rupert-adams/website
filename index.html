@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupert Adams Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li class="nav-item">Rupert Adams</li>
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="home" class="section home">
+      <div class="text-box">
+        <h1>Hello, I'm Rupert</h1>
+        <p>
+          I am a data engineer, infrastructure engineer and system designer. 
+          I specialise in building and designing environmentally-conscious systems for future-thinking businesses,
+          and I would like to work with you.
+        </p>
+        <button>Lets Chat</button>
+      </div>
+      <div class="image">
+        <img src="cloud_vector_1.png" alt="cloud_computing_vector">
+      </div>
+    </div>
+    <div id="contact" class="section contact">
+      <div class="contact-form">
+        <form action="">
+          <div class="form-top">
+            <div class="top-content">
+              <label for="name">Name:</label><br>
+              <input type="text" class="form-name" name="name" rules="required">
+            </div>
+            <div class="top-content">
+              <label for="email">E-Mail Address:</label><br>
+              <input type="text" class="form-email" name="email" rules="required|email|max:255">
+            </div>
+          </div>
+          <div class="form-subject">
+            <label for="subject">Subject:</label><br>
+            <input type="text" class="form-subject" name="subject" rules="required">
+          </div>
+          <div class="message-form">
+            <label for="message">Message:</label><br>
+            <input type="text" class="message-input" name="message" rules="required"></textarea>
+          </div>
+            <input type="submit" class="form-button">
+        </form>
+      </div>
+      <div class="contact-text">
+        <h1>Lets Chat</h1>
+        <p>
+          In the current circumstances, it is sadly harder to meet face-to-face, 
+          but please feel free to connect and we can set up a virtual coffee ASAP!
+        </p>
+      </div>
+    </div>
+    <script src="https://kwes.io/js/kwes.js"></script>
+  </body>
+</html>
